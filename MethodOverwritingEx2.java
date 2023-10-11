@@ -2,7 +2,7 @@ class Shape{
 
     public void area(){
         System.out.println("This is a Shape");
-
+      
     }
 }
  class Circle extends Shape
@@ -27,6 +27,6 @@ public class MethodOverwritingEx2{
 	    a.area();
 	    b.area(4);
 	    c.area(5,5);
-
+	 
 	}
 }
